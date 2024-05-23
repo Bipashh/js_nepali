@@ -13,8 +13,29 @@ let valueInNumber = Number(score)
 let isloggedIn = "Bipash"
 
 let BooleanIsLoggedIn = Boolean(isloggedIn)
-console.log(BooleanIsLoggedIn);
+// console.log(BooleanIsLoggedIn);
 
 // 1 -> true; 0 -> false
 //"" => false
 //"Bipash" => true
+
+// **************** Operations
+
+let value = 3
+let negvalue = -value
+// console/log(negvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+// let a = 33
+// let b = "33"
+// let c = Number(b) + a;
+// console.log(c);
+
+console.log(+true);
+console.log(+"");
