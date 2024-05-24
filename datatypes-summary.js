@@ -20,14 +20,37 @@
 
 // Array, Object, functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
+// const heros = ["shaktiman", "naagraj", "doga"];
 
-let myObj = {
-    name:"Bipash",
-    age:20,
+// let myObj = {
+//     name:"Bipash",
+//     age:20,
+// }
+
+// const myfunction = function() {
+//     console.log("Hello Workd");
+// }
+
+// ------------------------------------------------
+
+// Stack (Primitive), Heap (Non=Primitive)
+
+let myYoutubename = "BipashShakya"
+
+let anothername = myYoutubename
+anothername="Bipashandcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+// ***********************************************************
+let userOne = {
+    email : "bpashakya123@gmail.com",
+    upi : "user@ybl"
 }
 
-const myfunction = function() {
-    console.log("Hello Workd");
-}
+let userTwo = userOne
 
+userTwo.email = "user@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
