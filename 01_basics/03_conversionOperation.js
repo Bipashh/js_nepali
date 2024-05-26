@@ -11,7 +11,6 @@ let valueInNumber = Number(score)
 // true => 1; false => 0;
 
 let isloggedIn = "Bipash"
-
 let BooleanIsLoggedIn = Boolean(isloggedIn)
 // console.log(BooleanIsLoggedIn);
 
@@ -23,7 +22,7 @@ let BooleanIsLoggedIn = Boolean(isloggedIn)
 
 let value = 3
 let negvalue = -value
-// console/log(negvalue);
+ console.log(negvalue);
 
 // console.log(2+2);
 // console.log(2-2);
@@ -37,5 +36,10 @@ let negvalue = -value
 // let c = Number(b) + a;
 // console.log(c);
 
-console.log(+true);
-console.log(+"");
+//console.log(+true);
+//console.log(+"");
+
+const a = "3"
+const b = 4
+// console.log(typeof(Number(a)));
+// console.log(a+b)
